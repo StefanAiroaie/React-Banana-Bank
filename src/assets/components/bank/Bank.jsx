@@ -15,7 +15,7 @@ const Bank = ({ bankSoldo, setBankSoldo }) => { // props
     }
     const auszahlen = () => {
         setBankSoldo({
-            soldNumber: bankSoldo.soldNumber - Number(inputFieldValue) < 0 ? alert("du hast nicht genung Gled") : bankSoldo.soldNumber - Number(inputFieldValue),
+            soldNumber: bankSoldo.soldNumber - Number(inputFieldValue) < 0 ? alert("du hast nicht genung Gled auf Konto") : bankSoldo.soldNumber - Number(inputFieldValue),
             inputFieldValue: ""
         })
     }
