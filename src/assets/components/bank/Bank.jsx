@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Bank.css"
+import "./bank.css"
 
 const Bank = ({ bankSoldo, setBankSoldo }) => { // props
 
